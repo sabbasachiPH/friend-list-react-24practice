@@ -1,0 +1,22 @@
+img {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 32%;
+  margin-bottom: 5px;
+  background-color: lightgray;
+  border: 1px solid #303031;
+}
+.friendCard:hover {
+  box-shadow: 5px 5px 40px darkgray;
+}
+.btn {
+  cursor: pointer;
+}

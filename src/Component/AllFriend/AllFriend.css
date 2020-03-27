@@ -1,0 +1,17 @@
+.friendContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.allFriend {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 80%;
+  justify-content: space-around;
+
+  /* background-color: gray; */
+}
+.friendList {
+  flex-basis: 20%;
+  /* background-color: mediumslateblue; */
+  border-left: 3px solid gray;
+}
