@@ -19,7 +19,7 @@ const SingleFriend = props => {
       </div>
       <div>
         <button
-          className="btn btn-primary m-2"
+          className="btn btn-primary m-2 addBtn"
           onClick={() => props.handleAddFriend(props.friend)}
         >
           <FontAwesomeIcon icon={faUserPlus} /> Add Friend

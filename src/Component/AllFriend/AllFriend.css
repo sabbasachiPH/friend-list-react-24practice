@@ -6,12 +6,9 @@
   display: flex;
   flex-wrap: wrap;
   flex-basis: 80%;
-  justify-content: space-around;
-
-  /* background-color: gray; */
+  justify-content: space-evenly;
 }
 .friendList {
   flex-basis: 20%;
-  /* background-color: mediumslateblue; */
-  border-left: 3px solid gray;
+  /* border-left: 3px solid gray; */
 }

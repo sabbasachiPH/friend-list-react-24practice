@@ -1,28 +1,38 @@
 import React from "react";
 import "./FriendList.css";
 
-const FriendList = props => {
-  const List = props.friendList;
-  //console.log(props);
+const FriendList = (props) => {
+  const list = props.friendList;
+  console.log(props);
 
-  const totalIncome = List.reduce(
+  const totalIncome = list.reduce(
     (totalIncome, fr) => totalIncome + fr.basicSalary,
     0
   );
+  const showFriendList = list.map((listedfriend) => (
+    <>
+      <div className="frnd d-flex justify-content-evenly align-items-center">
+        <img
+          className="frndImg"
+          src={listedfriend.profile_pic}
+          alt=" firendsPhoto"
+        />
+        {listedfriend.fistName} {listedfriend.lastName}
+      </div>
+    </>
+  ));
 
   return (
-    <div>
-      <div>
+    <>
+      <div className="text-success text-center">
         <h4>
-          <b>Total Friend = {List.length}</b>
+          <b>Total Friend = {list.length}</b>
         </h4>
         <b>Friend's Yearly Income Grand Total = ${totalIncome}</b>
       </div>
-      <div className="frnd d-flex justify-content-between">
-        <img src="https://joeschmoe.io/api/v1/${4}" alt="" ></img>
-        <p>Friens Name</p>
-      </div>
-    </div>
+      <h2 className="text-primary text-center">Friends In list</h2>
+      {showFriendList}
+    </>
   );
 };
 

@@ -16,10 +16,10 @@ var friends = [
 	{"profile_pic":"https://live.staticflickr.com/65535/49694950882_8a09dba412_n.jpg","fistName": "Nigel", "lastName": "Yoshio", "DOB": "23-02-10", "basicSalary": 250313, "mobile": "88-964-50095-8501", "email": "eleifend@urnasuscipit.net", "id": 15},
 	{"profile_pic":"https://live.staticflickr.com/65535/49694950842_26eb331f05_n.jpg","fistName": "Cooper", "lastName": "Stone", "DOB": "08-07-02", "basicSalary": 391297, "mobile": "88-424-86826-0908", "email": "tellus.imperdiet@arcuimperdiet.net", "id": 16},
 	{"profile_pic":"https://live.staticflickr.com/65535/49694106868_52ac887dc5_n.jpg","fistName": "Brian", "lastName": "Neil", "DOB": "07-03-07", "basicSalary": 362052, "mobile": "88-614-35925-1013", "email": "Quisque.libero@mauris.ca", "id": 17},
-	{"profile_pic":"https://joeschmoe.io/api/v1/${4}","fistName": "Micah", "lastName": "George", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 18},
-	{"profile_pic":"https://joeschmoe.io/api/v1/${3}","fistName": "Micah", "lastName": "George", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 19},
-	{"profile_pic":"https://joeschmoe.io/api/v1/${2}","fistName": "Micah", "lastName": "George", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 20},
-	{"profile_pic":"https://joeschmoe.io/api/v1/${1}","fistName": "Micah", "lastName": "George", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 21},
+	{"profile_pic":`https://joeschmoe.io/api/v1/${4}`,"fistName": "Micah4", "lastName": "George4", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 18},
+	{"profile_pic":`https://joeschmoe.io/api/v1/${3}`,"fistName": "Micah3", "lastName": "George3", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 19},
+	{"profile_pic":`https://joeschmoe.io/api/v1/${2}`,"fistName": "Micah2", "lastName": "George2", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 20},
+	{"profile_pic":`https://joeschmoe.io/api/v1/${1}`,"fistName": "Micah1", "lastName": "George1", "DOB": "14-05-05", "basicSalary": 795170, "mobile": "88-156-68562-6260", "email": "pede.Suspendisse.dui@amet.co.uk", "id": 21},
 ];
 
 export default friends;
